@@ -1,0 +1,49 @@
+name: flash_kids  # 패키지명
+description: "FlashKids - 아이와 함께하는 스마트 플래시카드 학습앱. Smart flashcard app for kids to learn Korean and English."
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 상태 관리
+  flutter_riverpod: ^2.5.1
+
+  # 네트워크 & 캐싱
+  dio: ^5.4.3
+  cached_network_image: ^3.3.1
+
+  # TTS
+  flutter_tts: ^4.0.2
+
+  # 로컬 저장소 (캐시)
+  shared_preferences: ^2.2.3
+
+  # 라우팅
+  go_router: ^14.2.0
+
+  # 아이콘
+  flutter_svg: ^2.0.10+1
+  lucide_icons: 0.257.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1  # ← 이거 추가
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 21

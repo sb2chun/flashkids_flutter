@@ -1,0 +1,149 @@
+# ============================================================
+# Flutter / Dart .gitignore
+# ============================================================
+
+
+# ------------------------------------------------------------
+# [1] Dart 빌드 캐시 & 패키지
+# ------------------------------------------------------------
+
+# pub 패키지 매니저가 다운로드한 패키지들 (node_modules와 동일 개념)
+# `flutter pub get` 으로 언제든 재생성 가능
+.dart_tool/
+
+# pub이 관리하는 패키지 심볼릭 링크 디렉토리
+.packages
+
+# pub 글로벌 패키지 캐시 (로컬 머신 경로가 달라 충돌 유발)
+.pub-cache/
+.pub/
+
+
+# ------------------------------------------------------------
+# [2] Flutter 빌드 산출물
+# ------------------------------------------------------------
+
+# 모든 플랫폼 빌드 결과물 (apk, ipa, exe, web 등)
+# CI/CD에서 매번 빌드하므로 커밋 불필요
+build/
+
+# Flutter 내부 캐시 (flutter SDK 버전별 생성)
+.flutter-plugins
+.flutter-plugins-dependencies
+
+
+# ------------------------------------------------------------
+# [3] IDE / 에디터 설정
+# ------------------------------------------------------------
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code (팀 공유 설정은 .vscode/settings.json 일부만 포함 가능)
+.vscode/
+# 단, launch.json, extensions.json은 팀 공유 목적이면 예외 처리 가능:
+# !.vscode/launch.json
+# !.vscode/extensions.json
+
+
+# ------------------------------------------------------------
+# [4] Android 플랫폼 관련
+# ------------------------------------------------------------
+
+# Gradle 빌드 캐시 및 래퍼 산출물
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties         # SDK 경로 등 로컬 환경 설정 (절대 커밋 금지)
+**/android/**/GeneratedPluginRegistrant.java  # Flutter가 자동 생성
+
+# 서명 관련 (keystore 절대 커밋 금지 - 보안 사고 주의)
+*.jks
+*.keystore
+key.properties                      # 키스토어 경로/비밀번호 포함 파일
+
+
+# ------------------------------------------------------------
+# [5] iOS / macOS 플랫폼 관련
+# ------------------------------------------------------------
+
+# CocoaPods 설치 디렉토리 (pod install로 재생성)
+**/ios/Pods/
+**/macos/Pods/
+
+# Xcode 사용자별 설정
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral/
+
+# Xcode 파생 데이터 (빌드 캐시)
+**/ios/DerivedData/
+**/macos/DerivedData/
+
+# Xcode workspace 자동생성 파일
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+
+# ------------------------------------------------------------
+# [6] 환경변수 / 시크릿 (보안 - 절대 커밋 금지)
+# ------------------------------------------------------------
+
+# 환경변수 파일
+.env
+.env.*
+!.env.example                       # 예시 파일은 커밋해도 OK
+
+# Firebase 설정 (API 키 포함)
+google-services.json                # Android Firebase 설정
+GoogleService-Info.plist            # iOS Firebase 설정
+
+# 각종 API 키, 시크릿 파일
+secrets.dart
+**/lib/secrets/
+*.pem
+*.p8
+*.p12
+
+
+# ------------------------------------------------------------
+# [7] 테스트 / 커버리지
+# ------------------------------------------------------------
+
+coverage/
+
+
+# ------------------------------------------------------------
+# [8] 기타 OS 찌꺼기
+# ------------------------------------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+
+# ------------------------------------------------------------
+# [9] 심볼 파일 (디버그용 빌드 산출물)
+# ------------------------------------------------------------
+*.symbols
