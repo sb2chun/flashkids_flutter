@@ -1,7 +1,7 @@
 # 🐻 FlashKids - 우리 아이 첫 번째 학습 친구
 
 <p align="center">
-  <img width="1024" height="500" alt="image" src="https://github.com/user-attachments/assets/b10f94ff-118f-4f87-ae31-00d8921f8ca3" />
+  <img width="512" alt="image" src="https://github.com/user-attachments/assets/b10f94ff-118f-4f87-ae31-00d8921f8ca3" />
 </p>
 
 <p align="center">
@@ -19,11 +19,10 @@
 ---
 
 ## 📱 스크린샷
-<img width="1080" height="1997" alt="KakaoTalk_20260429_111756094_05" src="https://github.com/user-attachments/assets/19f0cdfc-3b13-49b8-9ef7-63d91ca83ebb" />
-<img width="1080" height="2068" alt="KakaoTalk_20260429_111756094_03" src="https://github.com/user-attachments/assets/76a2583a-4e6d-4101-8d93-637b82104863" />
-<img width="1080" height="2034" alt="KakaoTalk_20260429_111756094_04" src="https://github.com/user-attachments/assets/e5aaf88f-9298-470d-bd72-3f59c14ecac4" />
-<img width="1080" height="2090" alt="KakaoTalk_20260429_111756094_01" src="https://github.com/user-attachments/assets/83017c35-9760-44f1-b0b8-e056f28b9520" />
-<img width="1080" height="2076" alt="KakaoTalk_20260429_111756094" src="https://github.com/user-attachments/assets/7a9bd795-5eff-46af-b6a3-cf008b292828" />
+<img width="180" alt="KakaoTalk_20260429_111756094_05" src="https://github.com/user-attachments/assets/19f0cdfc-3b13-49b8-9ef7-63d91ca83ebb" />
+<img width="180" alt="KakaoTalk_20260429_111756094_03" src="https://github.com/user-attachments/assets/76a2583a-4e6d-4101-8d93-637b82104863" />
+<img width="180" alt="KakaoTalk_20260429_111756094_01" src="https://github.com/user-attachments/assets/83017c35-9760-44f1-b0b8-e056f28b9520" />
+<img width="180" alt="KakaoTalk_20260429_111756094" src="https://github.com/user-attachments/assets/7a9bd795-5eff-46af-b6a3-cf008b292828" />
 
 ---
 
